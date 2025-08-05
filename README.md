@@ -1,0 +1,1 @@
+Side-channel attacks exploit physical leakage to break cryptography. RISC-V processors are becoming common in lightweight embedded systems. This project focuses on preparing data for evaluating side-channel vulnerabilities in cryptographic gadgets.
