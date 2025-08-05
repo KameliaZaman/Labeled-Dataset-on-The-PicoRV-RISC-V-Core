@@ -1,0 +1,9 @@
+To activate the environment: 'conda activate cw-husky'
+To compile: 'make' or 'make -B'
+After compiling, switch flash to left
+Then 'make writeflash'
+Switch flash to right
+For capturing the script: 'python3 isw_and_capture.py tv_isw_and -t int --debug'
+For activating qiling: 'source qiling-venv/bin/activate'
+For generating traces: 'python3 trace_toffoli.py picoapp.elf 100 trace_toffoli/ toffoli_vectors.csv'
+For applying leakage model: 'python3 Apply_leakage_model_to_generate_traces.py MASKED_O1 HW toffoli_traces'
